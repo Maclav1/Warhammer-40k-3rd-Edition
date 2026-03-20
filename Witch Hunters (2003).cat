@@ -8582,19 +8582,6 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>
           </costs>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="5937-a343-e637-3ab5" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1be-8d34-9cb9-6951" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Bolt Pistol" id="8de1-a703-8feb-82bc" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntry>
         <selectionEntry id="5580-d08e-233b-b936" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
