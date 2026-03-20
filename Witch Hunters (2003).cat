@@ -4262,6 +4262,8 @@
               </modifiers>
             </entryLink>
             <entryLink id="d909-0852-116f-deeb" name="Repressor (IA)" hidden="false" collective="false" import="true" targetId="5fc5-eb60-c67f-ecf5" type="selectionEntry"/>
+            <entryLink import="true" name="Witch Hunter Land Raider" hidden="false" id="4b34-0ef7-f699-d1fa" type="selectionEntry" targetId="fbb0-c9e3-f72d-bf33"/>
+            <entryLink import="true" name="Witch Hunter Land Raider Prometheus (IA)" hidden="false" id="953a-579e-842a-cb44" type="selectionEntry" targetId="e843-abc8-aaa5-ca64"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8569,7 +8571,7 @@ Number of Models
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Sacrosanct" hidden="false" id="aa35-81b5-97d7-1865" sortIndex="1">
               <infoLinks>
-                <infoLink name="Sacrosanct" id="b75e-32f1-1649-44ed" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                <infoLink name="Celestian" id="b75e-32f1-1649-44ed" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
                     <modifier type="set" value="Sacrosanct" field="name"/>
                   </modifiers>
@@ -8600,6 +8602,8 @@ Number of Models
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Repressor (IA)" hidden="false" id="2cc7-ddc7-1eef-6d4c" collective="false" targetId="5fc5-eb60-c67f-ecf5" type="selectionEntry"/>
+            <entryLink import="true" name="Witch Hunter Land Raider" hidden="false" id="8be1-09a8-7f86-ab69" type="selectionEntry" targetId="fbb0-c9e3-f72d-bf33"/>
+            <entryLink import="true" name="Witch Hunter Land Raider Prometheus (IA)" hidden="false" id="0303-1525-f911-7b9c" type="selectionEntry" targetId="e843-abc8-aaa5-ca64"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
