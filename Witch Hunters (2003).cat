@@ -9090,6 +9090,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10df-24c7-088a-3e71" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
