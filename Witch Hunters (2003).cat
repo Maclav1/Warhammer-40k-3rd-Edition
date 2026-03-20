@@ -4004,35 +4004,12 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d05-86d3-dd75-0393" type="max"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c19c-6112-554d-0e59" name="Banner" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33d-6683-aa4e-19f3" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f282-8c32-1afe-ff4d" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="c623-c570-bdda-4ee8" name="Sacred Banner of the Order Militant" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c68-86a8-0d49-c59e" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d2c4-43d1-d9a7-e9cc" name="Sacred Standard" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c68f-847a-c0e3-a78c" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Banners" hidden="false" id="0112-d1d8-c184-cf11" type="selectionEntryGroup" targetId="4753-1d7b-a492-7d32"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Celestian Superior" hidden="false" id="5462-4bee-7298-e924" collective="false">
           <constraints>
@@ -8493,35 +8470,12 @@ Number of Models
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31bb-c03a-f52f-f41f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Banner" id="e474-0b40-1c7a-6497" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da02-f420-a502-39b4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3451-b77d-e472-5f37" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Sacred Banner of the Order Militant" hidden="false" id="0c60-fdb2-3b61-5020" collective="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3096-fd30-6b04-e142" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sacred Standard" hidden="false" id="8f48-eb37-65bc-2ca0" collective="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="658d-3238-6252-9309" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Banners" hidden="false" id="bc8c-f684-b9f1-a206" type="selectionEntryGroup" targetId="4753-1d7b-a492-7d32"/>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Sacrosanct Superior" hidden="false" id="974a-9f06-f66b-cbd2" collective="false">
           <constraints>
@@ -11288,6 +11242,40 @@ Number of Models
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Banners" id="4753-1d7b-a492-7d32" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sacred Banner of the Order Militant" hidden="false" id="132f-a903-2ba8-d55f" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="466f-35c0-8f62-3cd3" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
+          </costs>
+          <rules>
+            <rule name="Sacred Banner of the Order Militant" id="7878-597a-21b1-79df" hidden="false">
+              <description>Any Adepta Sororitas unit within 12&quot; counts as Fearless.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sacred Standard" hidden="false" id="19ad-a17b-7fd1-ed26" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b611-a60b-6803-6d02" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+          </costs>
+          <rules>
+            <rule name="Sacred Standard" id="edb2-198d-139a-384f" hidden="false">
+              <description>Any Adapta Sororitas unit within 6&quot; adds +1 to its combat resolution.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="082a-b7a3-17a0-6ffd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c455-20df-074f-fe94" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
