@@ -8731,7 +8731,7 @@ Number of Models
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="c7c8-8852-605b-d109" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="99ab-89fc-bb85-0aa0" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="99ab-89fc-bb85-0aa0" collective="false">
                       <infoLinks>
                         <infoLink name="Crossbow Pistol" id="3bbb-e3a4-a889-af2a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
@@ -8777,7 +8777,7 @@ Number of Models
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="14c3-d252-d868-9704" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="81a3-5106-de68-3195" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="81a3-5106-de68-3195" collective="false">
                       <infoLinks>
                         <infoLink name="Crossbow Pistol" id="f704-f3fa-7057-1cc5" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
@@ -8824,7 +8824,7 @@ Number of Models
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="9e8d-71e5-633e-9f34" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="b1be-cf2c-d449-c511" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="b1be-cf2c-d449-c511" collective="false">
                       <infoLinks>
                         <infoLink name="Crossbow Pistol" id="c195-6be2-36cc-861d" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
@@ -8871,7 +8871,7 @@ Number of Models
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="fcf1-bd62-8aef-142d" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="d0c7-bb6d-e331-0d31" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="d0c7-bb6d-e331-0d31" collective="false">
                       <infoLinks>
                         <infoLink name="Crossbow Pistol" id="bb6f-07ba-8281-a023" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
@@ -9083,7 +9083,7 @@ Number of Models
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="31c7-c002-eb01-6d2c" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="31c7-c002-eb01-6d2c" collective="false">
           <infoLinks>
             <infoLink name="Crossbow Pistol" id="f085-273a-0128-b314" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
           </infoLinks>
@@ -9249,31 +9249,15 @@ Number of Models
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c314-c02f-6e03-7f3d" name="Combi-Crossbow" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c314-c02f-6e03-7f3d" name="Condemnor Bolter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428a-702a-20f5-806f" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="83bc-44ef-253a-d08f" name="Combi-Crossbow" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
-                <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
-                <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
-                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
-                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="27ce-2df2-7652-fe06" name="Combi-Crossbow" hidden="false">
-              <description>Any psyker hit by the Combi-crossbow is wounded on a 2+ and recieves no armour saves.</description>
-            </rule>
-          </rules>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
           </costs>
           <infoLinks>
-            <infoLink name="Boltgun" id="da52-139f-279d-f4d1" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+            <infoLink name="Condemnor Bolter" id="7f8d-2c33-7a29-ab69" hidden="false" type="profile" targetId="e03c-6b1f-d99d-ad69"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="9fa4-2e9e-f393-9bc1" name="Combi-Melta" hidden="false" collective="false" import="true" type="upgrade">
@@ -12371,13 +12355,22 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore cover.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Crossbow Pistol" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="78b7-9a47-45b9-3098">
+    <profile name="Condemnor Pistol" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="78b7-9a47-45b9-3098">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Once per game. Any psyker hit by the Crossbow Pistol is wounded on a 2+ with no armour saves.</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Once per game. Any psyker hit by the Condemnor Pistol is wounded on a 2+ with no armour saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Condemnor Bolter" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="e03c-6b1f-d99d-ad69">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Once per game. Any psyker hit by the Condemnor Pistol is wounded on a 2+ with no armour saves.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
