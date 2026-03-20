@@ -916,6 +916,7 @@
     <entryLink import="true" name="Frateris Militia/Zealots (Chapter Approved)" hidden="false" id="3cf1-2715-886f-83dd" type="selectionEntry" targetId="4ee5-341a-0a38-88b4"/>
     <entryLink import="true" name="Zepherim Squad" hidden="false" id="63fe-bb6f-9ec4-2851" collective="false" targetId="cf7f-7f66-578a-89b2" type="selectionEntry"/>
     <entryLink import="true" name="Sacrosanct Squad" hidden="false" id="8b6a-0bce-d26c-d834" collective="false" targetId="106a-388b-ef2c-b382" type="selectionEntry"/>
+    <entryLink import="true" name="Insidiants Squad" hidden="false" id="f085-fccf-1c30-5870" collective="false" targetId="bc7f-393f-a2d6-bf8d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="27ee-b0a2-0c2a-b518" name="Ordo Hereticus Inquisitor Lord" hidden="false" collective="false" import="true" type="unit">
@@ -3961,6 +3962,9 @@
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="3df8-20af-1227-bfa3" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="9f12-3a99-73db-acf0" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -3976,6 +3980,9 @@
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="9daa-53e6-34a2-cf5e" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="9831-cf8b-21a0-3a0f" name="Imagifer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4284,6 +4291,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f51c-4360-d383-9262" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Insidiants Squad" hidden="false" id="80dc-c110-6c7e-d5ed" type="selectionEntry" targetId="bc7f-393f-a2d6-bf8d"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ec6-0439-b0c0-5b6a"/>
@@ -4324,6 +4332,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c334-59b3-0267-e2dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Insidiants Squad" hidden="false" id="c1f2-a614-e8df-2831" type="selectionEntry" targetId="bc7f-393f-a2d6-bf8d"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a0-1df5-8b39-4d82"/>
@@ -4857,6 +4866,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="1875-911d-ade6-1691" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="a89b-a043-c142-c5e4" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4872,6 +4884,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="14cc-568a-2db1-b0e0" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5443,6 +5458,8 @@ Hellfire Round: The shot wounds on a 2+.</description>
       </rules>
       <infoLinks>
         <infoLink id="e8d4-bd3a-96eb-aeae" name="Jump Packs" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
+        <infoLink name="Frag Grenades" id="84f8-9d72-1d6d-679e" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink name="Krak Grenades" id="55a2-1a96-86e2-4ed1" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="92c7-a2fb-c9a3-cbbb" name="Adepta Sororitas" hidden="false" targetId="bd50-bb90-bb09-3002" primary="false"/>
@@ -5456,9 +5473,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
           </constraints>
           <infoLinks>
             <infoLink id="6c64-94cc-2d00-77c5" name="Seraphim Superior" hidden="false" targetId="5224-7449-2dbd-d37b" type="profile"/>
-            <infoLink id="6210-6bc2-c9d5-4027" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
             <infoLink name="Twin Bolt Pistols" id="a5db-1118-f161-6e66" hidden="false" type="profile" targetId="22b8-b48b-d0d1-c5a1"/>
-            <infoLink name="Krak Grenades" id="55a2-1a96-86e2-4ed1" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="22"/>
@@ -5488,16 +5503,13 @@ Hellfire Round: The shot wounds on a 2+.</description>
                 <modifier type="set" value="Veteran Superior" field="name" scope="parent"/>
               </modifiers>
               <infoLinks>
-                <infoLink name="Simulacrum Imperialis" id="c190-c7b1-07af-eb85" hidden="false" targetId="424f-c543-4ada-a802" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="dd8b-8f26-9f10-7ab1" childId="40dc-0a66-b40b-5c3e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
+                <infoLink name="Simulacrum Imperialis" id="c190-c7b1-07af-eb85" hidden="false" targetId="424f-c543-4ada-a802" type="rule"/>
               </infoLinks>
+              <rules>
+                <rule name="Faithful" id="424e-e56d-c37c-6522" hidden="false">
+                  <description>Add 1 Faith Point</description>
+                </rule>
+              </rules>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
@@ -5515,6 +5527,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Melta Bombs" id="7164-e875-48fc-504f" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5527,8 +5542,6 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <selectionEntry id="bbc5-a664-47bd-6570" name="Seraphim" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="3b23-6945-c772-00bb" name="Seraphim" hidden="false" targetId="cbab-6c8f-2262-c8f7" type="profile"/>
-                <infoLink id="4163-e149-cc3e-a125" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
-                <infoLink id="55d4-ebee-5df0-0285" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                 <infoLink name="Twin Bolt Pistols" id="b9ea-ce04-e13f-816b" hidden="false" type="profile" targetId="22b8-b48b-d0d1-c5a1"/>
               </infoLinks>
               <costs>
@@ -5538,8 +5551,6 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <selectionEntry type="model" import="true" name="Seraphim" hidden="false" id="9271-86f3-f66f-7c7c" collective="false" defaultAmount="1">
               <infoLinks>
                 <infoLink name="Seraphim" id="0c8e-2867-d479-f529" hidden="false" targetId="cbab-6c8f-2262-c8f7" type="profile"/>
-                <infoLink name="Frag Grenades" id="5883-6806-eae1-314e" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
-                <infoLink name="Krak Grenades" id="9466-523a-bb14-d097" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="22"/>
@@ -5585,8 +5596,6 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <selectionEntry type="model" import="true" name="Seraphim" hidden="false" id="6bde-779d-aa3c-87a5" collective="false" defaultAmount="1">
               <infoLinks>
                 <infoLink name="Seraphim" id="3b34-036d-13b7-0ac9" hidden="false" targetId="cbab-6c8f-2262-c8f7" type="profile"/>
-                <infoLink name="Frag Grenades" id="39d7-4f05-26d4-49b9" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
-                <infoLink name="Krak Grenades" id="7ad4-d55f-5292-b82c" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="22"/>
@@ -5667,6 +5676,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="5052-3aba-0341-c505" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="54b1-a762-c2f3-43bd" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -5682,6 +5694,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="fbb9-be4f-b425-fe37" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="e8d2-23c7-b449-2432" name="Melta Bombs" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6049,14 +6064,6 @@ Hellfire Round: The shot wounds on a 2+.</description>
         <categoryLink id="be06-3686-9c63-0523" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7486-4892-5bae-f332" name="Veteran Superior" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38de-b4c9-7f98-23e9" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="14"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="bb45-40fb-e523-38a4" name="Imagifer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b874-f4df-e159-12d2" type="max"/>
@@ -6082,6 +6089,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="fbcd-bd30-467e-046e" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="4327-e05e-5ebf-5e09" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6097,6 +6107,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="34e3-1743-a569-c6da" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="6350-1da6-42f6-ac22" collective="false">
           <constraints>
@@ -8290,6 +8303,8 @@ Number of Models
       </rules>
       <infoLinks>
         <infoLink name="Jump Packs" id="6fd2-0d8c-ca9f-6f03" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
+        <infoLink name="Frag Grenades" id="8bf8-ddab-a0d7-4e9a" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink name="Krak Grenades" id="a934-d21c-c01c-cb89" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Adepta Sororitas" hidden="false" id="5445-f465-02df-f16b" targetId="bd50-bb90-bb09-3002" primary="false"/>
@@ -8307,8 +8322,6 @@ Number of Models
                 <modifier type="set" value="Zepherim Superior" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Frag Grenades" id="8bf8-ddab-a0d7-4e9a" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
-            <infoLink name="Krak Grenades" id="a934-d21c-c01c-cb89" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
             <infoLink name="Power Weapon" id="56a4-3c26-f8a1-928d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
             <infoLink name="Bolt Pistol" id="83d1-a9cc-82a7-e900" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
           </infoLinks>
@@ -8340,16 +8353,13 @@ Number of Models
                 <modifier type="set" value="Veteran Superior" field="name" scope="parent"/>
               </modifiers>
               <infoLinks>
-                <infoLink name="Simulacrum Imperialis" id="f2c1-996a-1b41-4545" hidden="false" targetId="424f-c543-4ada-a802" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="cf7f-7f66-578a-89b2" childId="cc0f-953a-d569-f080" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
+                <infoLink name="Simulacrum Imperialis" id="f2c1-996a-1b41-4545" hidden="false" targetId="424f-c543-4ada-a802" type="rule"/>
               </infoLinks>
+              <rules>
+                <rule name="Faithful" id="eb31-05c8-f63f-505f" hidden="false">
+                  <description>Add 1 Faith Point</description>
+                </rule>
+              </rules>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
@@ -8367,6 +8377,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Melta Bombs" id="2136-0a79-dd1b-49f1" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8383,8 +8396,6 @@ Number of Models
                     <modifier type="set" value="Zepherim" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Frag Grenades" id="6cf4-93bc-630a-2f35" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
-                <infoLink name="Krak Grenades" id="eeb0-39dc-d54c-9884" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                 <infoLink name="Power Weapon" id="db15-2f74-b863-964e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
                 <infoLink name="Bolt Pistol" id="0823-27a9-56c7-b8f3" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
               </infoLinks>
@@ -8568,6 +8579,360 @@ Number of Models
         <entryLink import="true" name="Priest" hidden="false" id="90ee-a356-082b-39f7" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Insidiants Squad" hidden="false" id="bc7f-393f-a2d6-bf8d" collective="false">
+      <rules>
+        <rule name="Faithful" id="6743-c84b-dc18-bb12" hidden="false">
+          <description>Add 1 Faith Point</description>
+        </rule>
+        <rule name="Holy Hatred" id="7ff3-f9cc-f8dd-43e9" hidden="false">
+          <description>Against enemy with a WS, Celestians hit on a 3+ regardless of respective WS values. This does not apply against Independent Characters or Monstrous Creatures.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="Elites" hidden="false" id="1a2d-5be0-c98a-5f5d" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink name="Adepta Sororitas" hidden="false" id="0d8b-b40c-196e-e66a" targetId="bd50-bb90-bb09-3002" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="86b0-708a-62df-7270" collective="false">
+          <modifiers>
+            <modifier type="increment" value="1" field="4ed5-2f92-9abc-2870">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b27c-afb5-bb44-c423" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="7b61-1760-954a-8ffc" collective="false">
+          <modifiers>
+            <modifier type="increment" value="2" field="4ed5-2f92-9abc-2870">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8f2-e7d4-eb4d-d262" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Imagifer" hidden="false" id="1fef-8819-9287-da33" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f07-c01b-bae2-4d1a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Simulacrum Imperialis" id="7229-dde3-0785-8919" hidden="false" targetId="424f-c543-4ada-a802" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Banner Bearer" hidden="false" id="244d-d991-eb22-af10" collective="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="c538-fd25-61e6-ca37" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="f9ca-5d42-058f-b429" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68fa-a2f7-8ca0-62b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Banners" hidden="false" id="ec4c-5c28-f89b-e9aa" type="selectionEntryGroup" targetId="4753-1d7b-a492-7d32"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Insidiant Superior" hidden="false" id="c50b-56ab-ad9f-ab99" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6804-f5ad-ec28-405a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ac1-dc9c-adcb-ad93" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Sister Superior" id="ef34-7b11-4c63-9121" hidden="false" targetId="012f-001c-b699-3b8c" type="profile"/>
+            <infoLink name="Power Weapon" id="99f8-7dd7-ee20-163e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+            <infoLink name="Crossbow Pistol" id="b805-7a76-fc6e-229a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="fe99-b879-200a-d037" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7547-d3ca-9596-76c8"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Witch Hunters Armoury" hidden="false" id="203c-6b90-a2ba-09a8" collective="false" targetId="b583-3e64-2ee0-8583" type="selectionEntryGroup"/>
+              </entryLinks>
+              <modifiers>
+                <modifier type="set" value="Veteran Superior" field="name" scope="parent" affects="profiles.Unit"/>
+                <modifier type="set" value="2" field="abbf-0d11-fd86-d938" scope="parent" affects="profiles.Unit"/>
+                <modifier type="set" value="Veteran Superior" field="name" scope="parent"/>
+              </modifiers>
+              <rules>
+                <rule name="Faithful" id="748a-1afa-7da3-a99d" hidden="false">
+                  <description>A Veteran Sister Superior adds 1 Faith Point</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Insidiants" id="2202-4ff1-da2f-9e5c" hidden="false" collective="false" import="true" defaultSelectionEntryId="702a-56e8-3c83-2ef6">
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c99f-8531-78ce-087b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8f8d-a7c7-e2be-3bac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Insidiants" hidden="false" id="3a9c-8806-3918-b32a" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Celestian" id="9d3b-bc98-9ffe-df36" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Insidiants" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Power Weapon" id="0a63-6d92-17bc-653d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                <infoLink name="Crossbow Pistol" id="d1a5-cdf6-e2fe-9a5e" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="c21a-522b-2dda-641e">
+              <infoLinks>
+                <infoLink name="Celestian" id="bbc0-870a-8e8d-9524" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Insidiants" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Power Weapon" id="06b4-a27c-9980-02e2" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="c7c8-8852-605b-d109" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="99ab-89fc-bb85-0aa0" collective="false">
+                      <infoLinks>
+                        <infoLink name="Crossbow Pistol" id="3bbb-e3a4-a889-af2a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="dadd-4cd6-8767-ffd4">
+                      <infoLinks>
+                        <infoLink name="Hand Flamer" id="65f5-a509-7bd1-5544" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="feb1-9c12-d8e1-52ed">
+                      <infoLinks>
+                        <infoLink name="Praesidium Protectiva" id="08cb-ba7c-cbb2-265d" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e716-aa88-d29a-8f18" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c8f-e454-f25c-d688"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="c381-2a8c-398b-6dd5">
+              <infoLinks>
+                <infoLink name="Celestian" id="4cd3-645b-96b3-132c" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Insidiants" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Power Weapon" id="489e-7be8-198c-2b60" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="14c3-d252-d868-9704" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="81a3-5106-de68-3195" collective="false">
+                      <infoLinks>
+                        <infoLink name="Crossbow Pistol" id="f704-f3fa-7057-1cc5" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="29e0-6fce-2ba9-d504">
+                      <infoLinks>
+                        <infoLink name="Hand Flamer" id="8048-1827-7d30-63a5" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="b70c-149c-3aff-4b62">
+                      <infoLinks>
+                        <infoLink name="Praesidium Protectiva" id="57f4-35f2-db44-c270" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+                        <infoLink name="Close Combat Weapon" id="0e07-052b-a160-c11f" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51d7-6285-518c-5040" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a37-89a0-a4e4-268e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="7ce8-b2c7-7cd8-6fd4">
+              <infoLinks>
+                <infoLink name="Celestian" id="ee0e-3e7c-dc1b-94f9" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Insidiants" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Power Weapon" id="b15c-a226-42a6-76cf" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="9e8d-71e5-633e-9f34" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="b1be-cf2c-d449-c511" collective="false">
+                      <infoLinks>
+                        <infoLink name="Crossbow Pistol" id="c195-6be2-36cc-861d" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="1e62-00b2-cc6e-394e">
+                      <infoLinks>
+                        <infoLink name="Hand Flamer" id="9851-7bdb-7fbe-1297" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="5185-4b4a-c767-dcba">
+                      <infoLinks>
+                        <infoLink name="Praesidium Protectiva" id="0f3b-6627-d501-afa0" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+                        <infoLink name="Close Combat Weapon" id="77c9-f0ac-9370-85e2" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9864-35d9-18a3-2849" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d28b-b444-1c10-e0e4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="f356-bc01-e98c-ce60">
+              <infoLinks>
+                <infoLink name="Celestian" id="d6bc-7bfa-d2f6-1aa1" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                  <modifiers>
+                    <modifier type="set" value="Insidiants" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Power Weapon" id="9f99-899b-d43b-266d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="fcf1-bd62-8aef-142d" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="d0c7-bb6d-e331-0d31" collective="false">
+                      <infoLinks>
+                        <infoLink name="Crossbow Pistol" id="bb6f-07ba-8281-a023" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="63d8-94de-4874-eca2">
+                      <infoLinks>
+                        <infoLink name="Hand Flamer" id="50ce-add5-e40d-8d1d" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="0ea7-3cbe-716f-0c68">
+                      <infoLinks>
+                        <infoLink name="Praesidium Protectiva" id="f9f8-e3be-e494-9be0" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+                        <infoLink name="Close Combat Weapon" id="c59f-d653-212d-5eda" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7566-1f45-f5e9-5182" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22cd-808e-4202-5a23"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Transport" id="b89e-a83f-0f45-41b6" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d29d-eb88-140a-64b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Witch Hunter Rhino" hidden="false" id="bb23-8de7-405a-d097" collective="false" targetId="b6ac-4e7b-e612-a0c5" type="selectionEntry"/>
+            <entryLink import="true" name="Immolator" hidden="false" id="ccdc-7358-4c2b-7c97" collective="false" targetId="172c-0e38-a231-9ad8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="6" field="selections" scope="parent" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Repressor (IA)" hidden="false" id="86f3-e5e7-8d36-f24f" collective="false" targetId="5fc5-eb60-c67f-ecf5" type="selectionEntry"/>
+            <entryLink import="true" name="Witch Hunter Land Raider" hidden="false" id="d335-f86f-0d8b-a594" type="selectionEntry" targetId="fbb0-c9e3-f72d-bf33"/>
+            <entryLink import="true" name="Witch Hunter Land Raider Prometheus (IA)" hidden="false" id="92dd-0191-b301-6347" type="selectionEntry" targetId="e843-abc8-aaa5-ca64"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Priest" hidden="false" id="ea7b-4258-1284-5b5b" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="596c-257e-bb0f-6cb0" name="One-Handed Weapons" hidden="false" collective="false" import="true">
@@ -8719,31 +9084,12 @@ Number of Models
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Crossbow Pistol" hidden="false" id="31c7-c002-eb01-6d2c" collective="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a244-d0d3-56c8-63a8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
           <infoLinks>
-            <infoLink name="Bolt Pistol" id="0542-1af1-4510-bcd7" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
+            <infoLink name="Crossbow Pistol" id="f085-273a-0128-b314" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
           </costs>
-          <profiles>
-            <profile name="Crossbow Pistol" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="48ec-2cd0-fa0a-ec62">
-              <characteristics>
-                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
-                <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
-                <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
-                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
-                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule name="Crossbow Pistol" id="1be6-dbbf-468e-d296" hidden="false">
-              <description>Any psyker hit by the Crossbow Pistol is wounded on a 2+ and recieves no armour saves.</description>
-            </rule>
-          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -12014,6 +12360,24 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Twin Linked. 2d6 Armour Pen within 3&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hand Flamer" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="95be-7b23-24ac-dcf7">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore cover.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crossbow Pistol" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="78b7-9a47-45b9-3098">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Once per game. Any psyker hit by the Crossbow Pistol is wounded on a 2+ with no armour saves.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
