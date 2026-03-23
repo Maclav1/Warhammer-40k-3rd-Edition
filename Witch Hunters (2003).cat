@@ -8496,11 +8496,11 @@ Number of Models
           <infoLinks>
             <infoLink name="Sister Superior" id="e81f-fc18-10f5-3293" hidden="false" targetId="012f-001c-b699-3b8c" type="profile"/>
             <infoLink name="Bolt Pistol" id="cfa8-8a16-48c9-d2b9" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
-            <infoLink name="Power Weapon" id="5e7a-9a44-c90f-f557" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
             <infoLink name="Praesidium Protectiva" id="b5f6-5024-44f8-144e" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+            <infoLink name="Close Combat Weapon" id="d804-e4ee-76d5-4d64" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="33"/>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="fad2-f212-c8bd-df81" collective="false">
@@ -8542,11 +8542,11 @@ Number of Models
                   </modifiers>
                 </infoLink>
                 <infoLink name="Bolt Pistol" id="b246-5d2a-93bc-2332" hidden="false" type="profile" targetId="e9ac-c779-51bb-3c9a"/>
-                <infoLink name="Power Weapon" id="da6b-c59a-a446-6f55" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
                 <infoLink name="Praesidium Protectiva" id="ee39-5a2c-288e-f608" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
+                <infoLink name="Close Combat Weapon" id="9490-cd5a-53d5-c7e3" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="33"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8578,6 +8578,9 @@ Number of Models
       <entryLinks>
         <entryLink import="true" name="Priest" hidden="false" id="90ee-a356-082b-39f7" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b62c-727c-bbbc-4401" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Insidiants Squad" hidden="false" id="bc7f-393f-a2d6-bf8d" collective="false">
       <rules>
@@ -8664,11 +8667,11 @@ Number of Models
           </constraints>
           <infoLinks>
             <infoLink name="Sister Superior" id="ef34-7b11-4c63-9121" hidden="false" targetId="012f-001c-b699-3b8c" type="profile"/>
-            <infoLink name="Power Weapon" id="99f8-7dd7-ee20-163e" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
-            <infoLink name="Crossbow Pistol" id="b805-7a76-fc6e-229a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+            <infoLink name="Condemnor Pistol" id="b805-7a76-fc6e-229a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+            <infoLink name="Close Combat Weapon" id="e0c2-c18e-6348-0f1e" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="fe99-b879-200a-d037" collective="false">
@@ -8702,51 +8705,43 @@ Number of Models
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8f8d-a7c7-e2be-3bac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Insidiants" hidden="false" id="3a9c-8806-3918-b32a" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Insidiant" hidden="false" id="3a9c-8806-3918-b32a" sortIndex="1">
               <infoLinks>
                 <infoLink name="Celestian" id="9d3b-bc98-9ffe-df36" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
-                    <modifier type="set" value="Insidiants" field="name"/>
+                    <modifier type="set" value="Insidiant" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Power Weapon" id="0a63-6d92-17bc-653d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
-                <infoLink name="Crossbow Pistol" id="d1a5-cdf6-e2fe-9a5e" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                <infoLink name="Condemnor Pistol" id="d1a5-cdf6-e2fe-9a5e" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                <infoLink name="Close Combat Weapon" id="7fc6-4de7-7463-6940" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="c21a-522b-2dda-641e">
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiant" hidden="false" id="c21a-522b-2dda-641e">
               <infoLinks>
                 <infoLink name="Celestian" id="bbc0-870a-8e8d-9524" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
-                    <modifier type="set" value="Insidiants" field="name"/>
+                    <modifier type="set" value="Insidiant" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Power Weapon" id="06b4-a27c-9980-02e2" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                <infoLink name="Close Combat Weapon" id="2370-0a86-c9ba-319d" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="c7c8-8852-605b-d109" hidden="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="99ab-89fc-bb85-0aa0" collective="false">
                       <infoLinks>
-                        <infoLink name="Crossbow Pistol" id="3bbb-e3a4-a889-af2a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                        <infoLink name="Condemnor Pistol" id="3bbb-e3a4-a889-af2a" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="dadd-4cd6-8767-ffd4">
                       <infoLinks>
                         <infoLink name="Hand Flamer" id="65f5-a509-7bd1-5544" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="feb1-9c12-d8e1-52ed">
-                      <infoLinks>
-                        <infoLink name="Praesidium Protectiva" id="08cb-ba7c-cbb2-265d" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
@@ -8762,38 +8757,29 @@ Number of Models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c8f-e454-f25c-d688"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="c381-2a8c-398b-6dd5">
+            <selectionEntry type="model" import="true" name="Special Weapon Insidiant" hidden="false" id="792a-fb6f-4948-c351">
               <infoLinks>
-                <infoLink name="Celestian" id="4cd3-645b-96b3-132c" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                <infoLink name="Celestian" id="4edd-1907-d869-f7eb" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
-                    <modifier type="set" value="Insidiants" field="name"/>
+                    <modifier type="set" value="Insidiant" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Power Weapon" id="489e-7be8-198c-2b60" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                <infoLink name="Close Combat Weapon" id="d45b-f0a1-aee3-373b" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="14c3-d252-d868-9704" hidden="false">
+                <selectionEntryGroup name="Weapon" id="d3e2-e636-67ab-3083" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="81a3-5106-de68-3195" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="d15c-cfe5-8050-75ba" collective="false">
                       <infoLinks>
-                        <infoLink name="Crossbow Pistol" id="f704-f3fa-7057-1cc5" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                        <infoLink name="Condemnor Pistol" id="13b2-0d5c-4109-504f" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="29e0-6fce-2ba9-d504">
+                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="0fbc-2129-7c00-4a8e">
                       <infoLinks>
-                        <infoLink name="Hand Flamer" id="8048-1827-7d30-63a5" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="b70c-149c-3aff-4b62">
-                      <infoLinks>
-                        <infoLink name="Praesidium Protectiva" id="57f4-35f2-db44-c270" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
-                        <infoLink name="Close Combat Weapon" id="0e07-052b-a160-c11f" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
+                        <infoLink name="Hand Flamer" id="f819-e0e5-a66c-9e20" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
@@ -8801,106 +8787,82 @@ Number of Models
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51d7-6285-518c-5040" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f44d-2e65-6114-3ba2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a37-89a0-a4e4-268e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad1b-9cba-8900-16fc"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="7ce8-b2c7-7cd8-6fd4">
+            <selectionEntry type="model" import="true" name="Melee Weapon Insidiant" hidden="false" id="d048-c395-420f-b63e">
               <infoLinks>
-                <infoLink name="Celestian" id="ee0e-3e7c-dc1b-94f9" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                <infoLink name="Celestian" id="08ca-3045-ec86-437b" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
-                    <modifier type="set" value="Insidiants" field="name"/>
+                    <modifier type="set" value="Insidiant" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Power Weapon" id="b15c-a226-42a6-76cf" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="33"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="9e8d-71e5-633e-9f34" hidden="false">
+                <selectionEntryGroup name="Weapon" id="3e24-4ceb-0294-069d" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="b1be-cf2c-d449-c511" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Evicerator" hidden="false" id="2c33-e1aa-e8af-65d5">
                       <infoLinks>
-                        <infoLink name="Crossbow Pistol" id="c195-6be2-36cc-861d" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                        <infoLink name="Eviscerator" id="96d6-3331-9856-1d4a" hidden="false" type="profile" targetId="19a8-49f0-b33a-df2f"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="1e62-00b2-cc6e-394e">
+                    <selectionEntry type="upgrade" import="true" name="Sword and Shield" hidden="false" id="33d9-ed20-7ae6-4fc7">
                       <infoLinks>
-                        <infoLink name="Hand Flamer" id="9851-7bdb-7fbe-1297" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                        <infoLink name="Power Weapon" id="97f7-b4fd-904f-bcd3" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                        <infoLink name="Praesidium Protectiva" id="cf5f-1db5-b63d-6c15" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
                       </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="5185-4b4a-c767-dcba">
-                      <infoLinks>
-                        <infoLink name="Praesidium Protectiva" id="0f3b-6627-d501-afa0" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
-                        <infoLink name="Close Combat Weapon" id="77c9-f0ac-9370-85e2" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9864-35d9-18a3-2849" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f846-7ef2-ca94-1082" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d28b-b444-1c10-e0e4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4547-c0ad-8769-3a43"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Special Weapon Insidiants" hidden="false" id="f356-bc01-e98c-ce60">
+            <selectionEntry type="model" import="true" name="Melee Weapon Insidiant" hidden="false" id="0664-27c6-c4e1-362c">
               <infoLinks>
-                <infoLink name="Celestian" id="d6bc-7bfa-d2f6-1aa1" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
+                <infoLink name="Celestian" id="558e-7a19-d249-d3f8" hidden="false" targetId="858b-4353-ef6c-2e16" type="profile">
                   <modifiers>
-                    <modifier type="set" value="Insidiants" field="name"/>
+                    <modifier type="set" value="Insidiant" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Power Weapon" id="9f99-899b-d43b-266d" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="23"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="33"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="fcf1-bd62-8aef-142d" hidden="false">
+                <selectionEntryGroup name="Weapon" id="91b7-9bd3-5344-9385" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="d0c7-bb6d-e331-0d31" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Evicerator" hidden="false" id="09ff-5fee-6182-d8b4">
                       <infoLinks>
-                        <infoLink name="Crossbow Pistol" id="bb6f-07ba-8281-a023" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+                        <infoLink name="Eviscerator" id="c255-0c1f-98bb-5ad8" hidden="false" type="profile" targetId="19a8-49f0-b33a-df2f"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="63d8-94de-4874-eca2">
+                    <selectionEntry type="upgrade" import="true" name="Sword and Shield" hidden="false" id="ce34-1e8d-8095-1509">
                       <infoLinks>
-                        <infoLink name="Hand Flamer" id="50ce-add5-e40d-8d1d" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+                        <infoLink name="Power Weapon" id="f308-5b3d-ce25-45a6" hidden="false" type="profile" targetId="5774-7187-2616-dd8a"/>
+                        <infoLink name="Praesidium Protectiva" id="842f-8c03-e17e-ac9d" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
                       </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="0ea7-3cbe-716f-0c68">
-                      <infoLinks>
-                        <infoLink name="Praesidium Protectiva" id="f9f8-e3be-e494-9be0" hidden="false" type="rule" targetId="f8c8-af13-6445-dd58"/>
-                        <infoLink name="Close Combat Weapon" id="c59f-d653-212d-5eda" hidden="false" type="profile" targetId="46d5-85f2-d932-f0a2"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7566-1f45-f5e9-5182" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="355c-746f-61dd-4534" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22cd-808e-4202-5a23"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d0c-4cbb-8b4e-e26d"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -8932,6 +8894,9 @@ Number of Models
       <entryLinks>
         <entryLink import="true" name="Priest" hidden="false" id="ea7b-4258-1284-5b5b" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d5ac-544d-aa67-be81" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -9085,7 +9050,7 @@ Number of Models
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Condemnor Pistol" hidden="false" id="31c7-c002-eb01-6d2c" collective="false">
           <infoLinks>
-            <infoLink name="Crossbow Pistol" id="f085-273a-0128-b314" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
+            <infoLink name="Condemnor Pistol" id="f085-273a-0128-b314" hidden="false" type="profile" targetId="78b7-9a47-45b9-3098"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
