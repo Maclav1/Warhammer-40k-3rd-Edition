@@ -5,6 +5,7 @@
     <categoryEntry id="0ebb-2b64-3f2d-fffb" name="Space Marine Ally" hidden="false"/>
     <categoryEntry id="258f-122f-d9a4-245c" name="Inducted Imperial Guard" hidden="false"/>
     <categoryEntry id="9b26-b663-04dc-1998" name="Officer" hidden="false"/>
+    <categoryEntry name="Army Rules" id="ade9-ab9e-5027-3b9a" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="39f0-aa54-c246-1ac7" name="Witch Hunter Allies" hidden="false">
@@ -4028,6 +4029,7 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13"/>
+            <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="0"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="2678-0f27-1d02-f4f6" collective="false">
@@ -4036,6 +4038,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Witch Hunters Armoury" hidden="false" id="ed8f-6f58-7fd3-c0a4" collective="false" targetId="b583-3e64-2ee0-8583" type="selectionEntryGroup"/>
@@ -4253,6 +4256,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Priest" hidden="false" id="0a7e-6b47-a808-23db" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
@@ -4277,6 +4281,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="2"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Retinue" id="8f69-f066-158a-1339" hidden="false">
@@ -4318,6 +4323,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Retinue" id="61f6-265b-1a6d-f057" hidden="false">
@@ -4796,6 +4802,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
               </constraints>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Witch Hunters Armoury" hidden="false" id="ea27-de1b-1277-f614" collective="false" targetId="b583-3e64-2ee0-8583" type="selectionEntryGroup"/>
@@ -5643,6 +5650,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="074d-81dc-6c8a-41e2" name="Dominion Squad" hidden="false" collective="false" import="true" type="unit">
@@ -5731,6 +5739,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
               </constraints>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Witch Hunters Armoury" hidden="false" id="374c-aaac-e9c0-e999" collective="false" targetId="b583-3e64-2ee0-8583" type="selectionEntryGroup"/>
@@ -6129,6 +6138,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
               </constraints>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
+                <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Witch Hunters Armoury" hidden="false" id="10b2-6864-c079-3b44" collective="false" targetId="b583-3e64-2ee0-8583" type="selectionEntryGroup"/>
@@ -8408,6 +8418,7 @@ Number of Models
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sacrosanct Squad" hidden="false" id="106a-388b-ef2c-b382" collective="false">
@@ -8574,6 +8585,7 @@ Number of Models
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Priest" hidden="false" id="90ee-a356-082b-39f7" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
@@ -8890,6 +8902,7 @@ Number of Models
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="1"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Priest" hidden="false" id="ea7b-4258-1284-5b5b" type="selectionEntry" targetId="3adf-82c9-2af9-31f3"/>
@@ -12342,4 +12355,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
       </characteristics>
     </profile>
   </sharedProfiles>
+  <costTypes>
+    <costType name="Faith Points" id="727a-10a4-cb97-86f1" defaultCostLimit="-1"/>
+  </costTypes>
 </catalogue>
