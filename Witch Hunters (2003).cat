@@ -12321,7 +12321,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
     <profile name="Twin Inferno Pistols" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="a72e-048f-84b8-9113">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">6&quot;</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">84</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Twin Linked. 2d6 Armour Pen within 3&quot;</characteristic>
@@ -12330,7 +12330,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
     <profile name="Hand Flamer" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="95be-7b23-24ac-dcf7">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore cover.</characteristic>
