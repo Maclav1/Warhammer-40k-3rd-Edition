@@ -9089,6 +9089,18 @@ Number of Models
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10df-24c7-088a-3e71" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hand Flamer" hidden="false" id="a56e-3944-f33d-e12b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57c5-98be-f31c-602e"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hand Flamer" id="2e13-e090-93a5-547b" hidden="false" type="profile" targetId="95be-7b23-24ac-dcf7"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="8"/>
+            <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="b42e-346d-68ea-45a2" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
