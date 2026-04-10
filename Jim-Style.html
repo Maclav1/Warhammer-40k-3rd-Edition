@@ -1,0 +1,172 @@
+<template>
+  <set name="ruleProfiles" value="special rule,rule,rules,command"/>
+  <set name="dataProfiles" value="ranged weapons,ranged weapon,psychic weapon,melee weapons,melee weapon,weapons,magic weapons,magic weapon,weapon,spell,load"/>
+  <div class="cards">
+    <units dedupe="true">
+      <if type="has-profile" recursive="true">
+        <div class="card-wrapper" type="card">
+          <table class="card">
+            <tr class="card-header">
+              <td>
+                <if field="customName">
+                  <span class="name">{{customName}}</span>
+                </if>
+                <span class="name">{{name}}</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <profiles grouped="true" exclude="{{ruleProfiles}}">
+                  <table class="profile-group">
+                    <items max="1">
+                      <tr class="table-header">
+                        <td data-type="{{typeName}}">
+                          <span>{{typeName}}</span>
+                          <if field="group"> ({{group}}) </if>
+                        </td>
+                        <characteristics>
+                          <td>{{name}}</td>
+                        </characteristics>
+                      </tr>
+                    </items>
+                    <items>
+                      <tr data-name="{{name}}">
+                        <td>{{name}}</td>
+                        <characteristics>
+                          <td>
+                            <span type="markdown">{{value}}</span>
+                          </td>
+                        </characteristics>
+                      </tr>
+                    </items>
+                  </table>
+                </profiles>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <profiles include-rules="true" grouped="true" include="{{ruleProfiles}}">
+                  <table class="inline-table">
+                    <items max="1">
+                      <tr class="table-header">
+                        <td>Abilities</td>
+                      </tr>
+                    </items>
+                    <tr>
+                      <td class="inline-list">
+                        <items>
+                          <script>console.log('Rule:', name, typeId, typeName, description)</script>
+                          <span class="inline-item">{{name}}</span>
+                        </items>
+                      </td>
+                    </tr>
+                  </table>
+                </profiles>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </if>
+    </units>
+  </div>
+</template>
+
+
+<style>
+  .profile-group tr[data-name="Leader"],
+  .profile-group tr[data-name="Attached Unit"] {
+    display: none !important;
+  }
+
+
+  .profile-group:has(td[data-type="Orders"]) {
+    display: none !important;
+  }
+
+
+  .cards {
+    column-count: 2;
+    column-gap: 8px;
+    width: 100%;
+  }
+
+
+  .card-wrapper {
+    break-inside: avoid;
+    margin-bottom: 8px;
+  }
+
+
+  .card {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+
+  .card > tbody > tr > td,
+  .card > tr > td {
+    padding: 0;
+  }
+
+
+  .card-header {
+    background: darkgray;
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .name {
+    padding: 4px 0 0 4px;
+    font-size: 12px;
+    display: inline-block;
+  }
+
+
+  .profile-group,
+  .inline-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+
+  .profile-group td,
+  .inline-table td {
+    padding: 2px 2px 2px 4px;
+    font-size: 9px;
+  }
+
+
+  .profile-group tr:not(:first-child) {
+    border-top: 1px dotted lightgray;
+  }
+
+
+  .table-header {
+    background: lightgray;
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .inline-list {
+    padding: 2px 4px;
+  }
+
+
+  .inline-item:not(:last-child)::after {
+    content: ", ";
+  }
+
+
+  u/media print {
+    .cards {
+      column-gap: 6px;
+    }
+  }
+</style>

@@ -4431,7 +4431,9 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
           <selectionEntries>
             <selectionEntry id="c8be-8412-cee7-4261" name="Twin Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
-                <rule id="8980-e653-a83f-7de0" name="Twin Heavy Flamers" hidden="false"/>
+                <rule id="8980-e653-a83f-7de0" name="Twin Heavy Flamers" hidden="false">
+                  <description>Re-roll failed rolls to wound. May move 12&quot; and still fire.</description>
+                </rule>
               </rules>
               <infoLinks>
                 <infoLink id="c33f-e228-b745-58e0" name="Heavy Flamer" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile"/>
