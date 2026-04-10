@@ -1228,7 +1228,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c522-9d38-c6c1-5454" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="2529-47cc-486c-2b42" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+            <infoLink id="2529-47cc-486c-2b42" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
@@ -1682,7 +1682,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38d-30c3-f12a-1571" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d466-3f30-7823-a868" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+            <infoLink id="d466-3f30-7823-a868" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
@@ -3964,7 +3964,7 @@
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Frag Grenades" id="3df8-20af-1227-bfa3" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+            <infoLink name="Frag Grenades" id="3df8-20af-1227-bfa3" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="9f12-3a99-73db-acf0" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -4874,7 +4874,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Frag Grenades" id="1875-911d-ade6-1691" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+            <infoLink name="Frag Grenades" id="1875-911d-ade6-1691" hidden="false" type="profile" targetId="405d-50da-6cb9-4a40"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="a89b-a043-c142-c5e4" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -5096,7 +5096,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <selectionEntries>
             <selectionEntry id="584f-34cb-ab6f-bdc3" name="Storm Trooper" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="3f06-cd77-e54b-ee59" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                <infoLink id="3f06-cd77-e54b-ee59" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                 <infoLink id="1153-0220-4b67-b862" name="Hellgun" hidden="false" targetId="efe9-35a9-ba8f-99a9" type="profile"/>
                 <infoLink id="7e11-8e18-b871-1ca9" name="Targeter" hidden="false" targetId="e9b2-e53b-2414-1a22" type="rule"/>
                 <infoLink id="0c5e-916b-0749-a744" name="Storm Trooper" hidden="false" targetId="b29d-f044-3296-03b8" type="profile"/>
@@ -5295,7 +5295,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <selectionEntries>
             <selectionEntry id="2082-4415-7c5a-6112" name="Arbite" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="9d49-4e89-cb6c-2c0a" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                <infoLink id="9d49-4e89-cb6c-2c0a" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                 <infoLink id="65b0-7a2d-d7c3-bfbb" name="Shotgun" hidden="false" targetId="9882-0cca-b1d2-8e0b" type="profile"/>
                 <infoLink id="690c-3350-5eb0-e3f6" name="Storm Trooper" hidden="false" targetId="b29d-f044-3296-03b8" type="profile">
                   <modifiers>
@@ -5465,7 +5465,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
       </rules>
       <infoLinks>
         <infoLink id="e8d4-bd3a-96eb-aeae" name="Jump Packs" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
-        <infoLink name="Frag Grenades" id="84f8-9d72-1d6d-679e" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink name="Frag Grenades" id="84f8-9d72-1d6d-679e" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
         <infoLink name="Krak Grenades" id="55a2-1a96-86e2-4ed1" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -5685,7 +5685,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Frag Grenades" id="5052-3aba-0341-c505" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+            <infoLink name="Frag Grenades" id="5052-3aba-0341-c505" hidden="false" type="profile" targetId="405d-50da-6cb9-4a40"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="54b1-a762-c2f3-43bd" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -5720,6 +5720,9 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Melta Bombs" id="c5fb-480f-88c7-7e2c" hidden="false" type="profile" targetId="87d0-8c40-7bcb-8cbb"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="5df2-7522-1192-2588" collective="false">
           <constraints>
@@ -6099,7 +6102,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Frag Grenades" id="fbcd-bd30-467e-046e" hidden="false" type="profile" targetId="9dd4-e950-2419-5934"/>
+            <infoLink name="Frag Grenades" id="fbcd-bd30-467e-046e" hidden="false" type="profile" targetId="405d-50da-6cb9-4a40"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry id="4327-e05e-5ebf-5e09" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -8313,7 +8316,7 @@ Number of Models
       </rules>
       <infoLinks>
         <infoLink name="Jump Packs" id="6fd2-0d8c-ca9f-6f03" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
-        <infoLink name="Frag Grenades" id="8bf8-ddab-a0d7-4e9a" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink name="Frag Grenades" id="8bf8-ddab-a0d7-4e9a" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
         <infoLink name="Krak Grenades" id="a934-d21c-c01c-cb89" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -8449,6 +8452,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="68df-7706-b4db-b286" hidden="false" type="profile" targetId="405d-50da-6cb9-4a40"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="afa7-261f-e759-a5a1" collective="false">
           <modifiers>
@@ -8464,6 +8470,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="b175-ee0b-2992-03d8" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Imagifer" hidden="false" id="063c-f452-0978-31a5" collective="false">
           <constraints>
@@ -8622,6 +8631,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="f4a4-92c7-1a53-237d" hidden="false" type="profile" targetId="405d-50da-6cb9-4a40"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="7b61-1760-954a-8ffc" collective="false">
           <modifiers>
@@ -8637,6 +8649,9 @@ Number of Models
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Krak Grenades" id="bd6e-6634-2941-583a" hidden="false" type="profile" targetId="9c1b-bf93-059b-27f5"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Imagifer" hidden="false" id="1fef-8819-9287-da33" collective="false">
           <constraints>
@@ -9530,7 +9545,7 @@ Number of Models
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b3-c335-f366-b8a2" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="facc-381a-cf87-7887" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+            <infoLink id="facc-381a-cf87-7887" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>
@@ -10267,7 +10282,7 @@ Number of Models
                         <modifier type="set" field="b309-5233-122f-82bb" value="4+"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="c7ed-4546-58c2-7009" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                    <infoLink id="c7ed-4546-58c2-7009" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                     <infoLink id="0a82-f1d8-5c83-3e85" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                     <infoLink id="4227-0642-f3e8-d27f" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
                   </infoLinks>
@@ -10284,7 +10299,7 @@ Number of Models
                         <modifier type="set" field="7928-3a9b-6080-ed95" value="4"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="0c05-8e30-fede-38b7" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                    <infoLink id="0c05-8e30-fede-38b7" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                     <infoLink id="8042-c529-6626-3a7a" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                     <infoLink id="e419-182d-7530-8727" name="Targeter" hidden="false" targetId="e9b2-e53b-2414-1a22" type="rule"/>
                   </infoLinks>
@@ -10369,7 +10384,7 @@ Number of Models
                         <modifier type="set" field="b309-5233-122f-82bb" value="4+"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="f378-e609-e8bf-8b7b" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                    <infoLink id="f378-e609-e8bf-8b7b" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                     <infoLink id="9e2e-dae8-b355-3c02" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                     <infoLink id="90f7-38f8-95ec-e25f" name="Power Fist" hidden="false" targetId="a161-ed4b-bcb7-0a01" type="profile"/>
                     <infoLink id="7d7a-2b22-069f-d63f" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
@@ -10388,7 +10403,7 @@ Number of Models
                         <modifier type="set" field="b309-5233-122f-82bb" value="4+"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="7861-2e53-d802-7cf5" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                    <infoLink id="7861-2e53-d802-7cf5" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
                     <infoLink id="7334-aff7-e1e3-8a22" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
                     <infoLink id="efc8-c33c-acc7-f3d8" name="Targeter" hidden="false" targetId="e9b2-e53b-2414-1a22" type="rule"/>
                   </infoLinks>
@@ -10938,7 +10953,7 @@ Number of Models
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f55-650e-424d-a60f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c82a-d9e7-8c11-e860" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+            <infoLink id="c82a-d9e7-8c11-e860" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>
@@ -11293,7 +11308,7 @@ Number of Models
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb41-d8cf-eed2-c934" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7c40-c0ac-731b-0bc3" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                <infoLink id="7c40-c0ac-731b-0bc3" name="Frag Grenades" hidden="false" targetId="405d-50da-6cb9-4a40" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1"/>

@@ -5106,5 +5106,14 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
+    <profile name="Frag Grenades" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon" hidden="false" id="405d-50da-6cb9-4a40">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376"/>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844"/>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13"/>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Fights simultaneously vs enemies in cover. Both sides roll to hit and wound before making saves and removing casualties.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
