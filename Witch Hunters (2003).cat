@@ -4929,7 +4929,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b1d-07ef-4a2e-ae5e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="81df-724e-d8d8-0e9d" collective="false" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="81df-724e-d8d8-0e9d" collective="false" sortIndex="4">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4911-580c-d062-2eb5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -4940,7 +4940,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="12"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="da63-25b0-d94d-fc04" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="da63-25b0-d94d-fc04" collective="false" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Storm Bolter" id="d04e-a340-3acc-67dc" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
                       </infoLinks>
@@ -4948,7 +4948,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="f43d-fe92-721c-70d4" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="f43d-fe92-721c-70d4" collective="false" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Flamer" id="beff-68a6-0481-fdbf" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
                       </infoLinks>
@@ -4967,6 +4967,24 @@ Hellfire Round: The shot wounds on a 2+.</description>
                     <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="f6ac-4016-5767-fa01" sortIndex="1" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Boltgun" id="09cb-2462-bf82-f474" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="8652-742a-90b7-23b7" sortIndex="5">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
+                        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="add6-3622-228e-bbe0" hidden="false" type="profile" targetId="b9aa-366b-bd62-4692"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="d1d2-03e3-6066-48ed" sortIndex="6">
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35"/>
+                        <cost name="Faith Points" typeId="727a-10a4-cb97-86f1" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Multi-melta" id="51cf-ebd6-013d-a3e5" hidden="false" type="profile" targetId="7077-4e34-5c92-5320"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
